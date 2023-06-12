@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Banking Transactions</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="show">
+			<div class="navbar">
+				<div class="user-container">
+					<div class="cur-user">
+						<img src="profile.png" alt="" /><span>VISAL</span>
+					</div>
+					<button class="btn-logout">LOGOUT</button>
+				</div>
+			</div>
+		</header>
+		<main class="main-container show">
+			<div class="trans-container"></div>
+			<div class="ip-trans-container">
+				<div class="amount">
+					<span>Amount :</span>
+					<label for="">123$</label>
+				</div>
+				<div class="transfer-container">
+					<h3>TRANSFER MONEY</h3>
+					<input type="text" class="ip-transfer-to" />
+					<input type="number" class="ip-transfer-amount" />
+					<button class="btn btn-transfer">&rarr;</button>
+					<p>
+						<label for="">Transfer to </label>
+						<label for="">Amount</label>
+					</p>
+				</div>
+				<div class="deposit-container">
+					<h3>REQUEST LOAN</h3>
+					<input type="number" class="ip-deposit" />
+					<button class="btn btn-deposit">&rarr;</button>
+					<p>Amount</p>
+				</div>
+			</div>
+		</main>
+		<form action="" class="form-container sho">
+			<label for="">Username</label>
+			<input type="text" class="ip-user" placeholder="Enter Username" />
+			<label for="">Password</label>
+			<input type="password" class="ip-pass" placeholder="Enter Password" />
+			<button class="btn-login">LOGIN</button>
+			<button class="btn-create">CREATE USER</button>
+		</form>
+	</body>
+	<script src="app.js"></script>
+</html>
